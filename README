@@ -1,0 +1,4 @@
+This code is supposed to help reproduce issue with `noImplicitAny` handling by DENO LSP. It seems that even though `noImplicitAny` is set to `false`, warning
+about implicit any on function params is still displayed by IDE.
+
+Code uses JSDoc to import and specify types of variables (no-compile TypeScript).
